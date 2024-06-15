@@ -15,6 +15,6 @@ public class CandidateController {
   @PostMapping("/")
   public void cread(@Valid @RequestBody CandidateEntity candidateEntity) {
     System.out.println("Candidato");
-    System.out.println(candidateEntity.getEmail());
+    System.out.println(candidateEntity.getName());
   }
 }
